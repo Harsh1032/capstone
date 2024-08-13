@@ -42,7 +42,8 @@ CREATE TABLE TopUpResource (
 
 CREATE TABLE TopUpValue (
     id SERIAL PRIMARY KEY,
-    value VARCHAR(100) NOT NULL
+    name VARCHAR(100),
+    value INT NOT NULL
 );
 
 CREATE TABLE  Package (
