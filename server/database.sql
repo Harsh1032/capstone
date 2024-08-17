@@ -58,3 +58,22 @@ CREATE TABLE  Event (
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+/* 
+
+
+INSERT INTO TopUpValue (name, value) VALUES ('10,000đ', 10000);
+INSERT INTO TopUpValue (name, value) VALUES ('20,000đ', 20000);
+INSERT INTO TopUpValue (name, value) VALUES ('30,000đ', 30000);
+INSERT INTO TopUpValue (name, value) VALUES ('50,000đ', 50000);
+INSERT INTO TopUpValue (name, value) VALUES ('100,000đ (Có Cơ Hội Nhận 950 FC)', 100000);
+INSERT INTO TopUpValue (name, value) VALUES ('200,000đ (Có Cơ Hội Nhận 1,900 FC)', 200000);
+INSERT INTO TopUpValue (name, value) VALUES ('300,000đ (Có Cơ Hội Nhận 2,800 FC)', 300000);
+INSERT INTO TopUpValue (name, value) VALUES ('500,000đ (Có Cơ Hội Nhận 3,200 FC)', 500000);
+INSERT INTO TopUpValue (name, value) VALUES ('1,000,000đ (Có Cơ Hội Nhận 5,600 FC)', 1000000);
+
+
+
+
+
+*/
