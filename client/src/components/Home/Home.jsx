@@ -4,10 +4,10 @@ import gsap from 'gsap';
 import hiIcon from '../../assets/hi.png';
 import spin from '../../assets/spin.gif';
 import Modal from './Modal';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [showModal, setShowModal] = useState(true);
-
   const handleClose = () => {
     setShowModal(false);
   };
@@ -64,7 +64,7 @@ const Home = () => {
         <div className='flex flex-col mt-1 ml-4 w-[283px] h-[392px] bg-[#1F2228]'>
           <img src={spin} alt="" width={283} height={156.2}/>
           <div className='w-[283px] h-[40px] bg-[#00000080] flex items-center justify-center'>
-            <span className='text-normal text-[#FCBD00]'>VIP FC SPIN</span>
+            <Link to='/wheel'><span className='text-normal text-[#FCBD00]'>VIP FC SPIN</span></Link>
           </div>
           <ul className='ml-4 mt-3'>
             <li className='text-white'>Spins: 374,305</li>

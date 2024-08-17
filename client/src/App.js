@@ -7,6 +7,7 @@ import Login from './components/Registration/Login';
 import SignUp from './components/Registration/SignUp';
 import Recharge from './components/Recharge/Recharge';
 import PrivateRoute from './components/ProtectedRoute';
+import Wheel from './components/Wheel/Wheel';
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Route element={<PrivateRoute />}>
           <Route path='/recharge' element={<Recharge/>} />
         </Route>
+        
+        <Route path='/wheel' element={<Wheel/>} />
       </Routes>
       <Footer/>
     </div>
